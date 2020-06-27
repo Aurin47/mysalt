@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#div5 {
+	margin: -10% 0 0 7%;
+	width: 80px;
+	height: 70px;
+	float: left;
+	display: inline;
+	background: url(../images/new3.png) no-repeat;
+	background-size: 80px 70px;
+}
+
+#div1 {
+	margin: 1% 0 0 -94%;
+	width: 135px;
+	height: 50px;
+	float: left;
+	display: inline;
+	background: url(../images/logotip1.png) no-repeat;
+	background-size: 135px 50px;
+}
+
+#div2 {
+	margin: -2.2% 0 0 -10%;
+	width: 1484px;
+	height: 628px;
+	float: left;
+	display: inline;
+	background: url(../images/new1.jpg) no-repeat;
+	background-size: 1484px 628px;
+}
+
+.new1 {
+	font-family: Verdana;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #000;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+nav ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 1% 2%;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover{
+	background-color: blueviolet;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+.new2 {
+	list-style: none;
+	margin: 0 0 0 22%;
+	padding: 0;
+	text-align: center;
+	background-color: #fff;
+	display: flex;
+}
+
+.menu {
+	flex-basis: 18%;	
+}
+
+.menu2 {
+	font-size: 0px;
+	line-height: 26px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 1% 0;
+	background-color: #000;
+	position: relative;
+}
+
+.menu2::before {
+	content: attr(data-name);
+	position: absolute;
+	font-size: 16px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 1% 0;
+	background-color: blueviolet;
+	transform: rotateX(90deg) translateY(46px);
+	transform-origin: 50% 100%;
+	transition-duration: 500ms;
+	transition-property: transform;
+}
+
+.menu2:hover::before {
+	transform: rotateX(0deg) translateY(0);
+}
+
+.menu2::after {
+	content: attr(data-name);
+	position: absolute;
+	font-size: 16px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 1% 0;
+	background-color: #000;
+	transform: rotateX(0deg) translateY(0);
+	transform-origin: 50% 0;
+	transition-duration: 500ms;
+	transition-property: transform;
+}
+
+.menu2:hover::after {
+	transform: rotateX(90deg) translateY(-46px);
+}
+
+#new3 {
+	width: 1349px;
+	height: 70px;
+	background: linear-gradient(20deg,#92E24B 30%, #4BE2BF 70%);
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+#new4 {
+	margin: 2% 0 0 0;
+	font-size: 18px;
+	font-family: Verdana;
+}
+
+#div3 {
+	margin: 17.8% 0 0 96.3%;
+	width: 50px;
+	height: 40px;
+	float: left;
+	display: inline;
+	background: url(../images/strela.png) no-repeat;
+	background-size: 50px 40px;
+	position: fixed;
+}
+
+#new5 {
+	float: left;
+	display: inline;
+	margin: 7% 0 0 14.5%;
+	font-size: 60px;
+	color: #E2004F;
+	text-shadow: 4px 3px 1px #000000;
+}
+
+#new6 {
+	float: left;
+	display: inline;
+	margin: 1% 0 0 14.7%;
+	font-size: 18px;
+	color: #000000;
+}
+
+#div4 {
+	float: left;
+	display: inline;
+	width: 260px;
+	height: 19px;
+	background: #FC3A3A;
+	margin: 8% 0 0 -43.4%;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#new7 {
+	text-decoration: none;
+	margin: 0 0 0 6%;
+	color: #000000;
+}
+
+#div4:hover {
+	background-color: #FF2414;
+}
+
+#new8 {
+	float: left;
+	display: inline;
+	color: #FF0008;
+	margin: -9% 0 0 13%;
+}
+
+#div6 {
+	margin: -10% 0 0 25%;
+	width: 80px;
+	height: 70px;
+	float: left;
+	display: inline;
+	background: url(../images/new4.png) no-repeat;
+	background-size: 80px 70px;
+}
+
+#new9 {
+	float: left;
+	display: inline;
+	color: #FF0008;
+	margin: -9% 0 0 31%;
+}
+
+#div7 {
+	margin: -10% 0 0 41%;
+	width: 80px;
+	height: 70px;
+	float: left;
+	display: inline;
+	background: url(../images/new5.png) no-repeat;
+	background-size: 80px 70px;
+}
+
+#new10 {
+	float: left;
+	display: inline;
+	color: #FF0008;
+	margin: -9% 0 0 47%;
+}
+
+#div8 {
+	margin: -10% 0 0 60%;
+	width: 80px;
+	height: 70px;
+	float: left;
+	display: inline;
+	background: url(../images/new6.png) no-repeat;
+	background-size: 80px 70px;
+}
+
+#new11 {
+	float: left;
+	display: inline;
+	color: #FF0008;
+	margin: -9% 0 0 67%;
+}
+
+#new12 {
+	float: left;
+	display: inline;
+	margin: 4% 0 0 35%;
+}
+
+#div9 {
+	margin: 1% 0 0 19%;
+	width: 850px;
+	height: 450px;
+	float: left;
+	display: inline;
+	background: url(../images/new7.png) no-repeat;
+	background-size: 850px 450px;
+}
+
+#new13 {
+	float: left;
+	display: inline;
+	margin: 4% 0 0 35%;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+#new14 {
+	float: left;
+	display: inline;
+	margin: -98.5% 0 0 82%;
+	color: #000000;
+}
